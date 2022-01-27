@@ -7,6 +7,13 @@ def respond(message):
     bot_message = "I can hear you! You said: " + message
     # Return the result
     return bot_message
-
+# Define a function that sends a message to the bot: send_message
+def send_message(message):
+    # Print user_template including the user_message
+    print(____.format(____))
+    # Get the bot's response to the message
+    response = ____(____)
+    # Print the bot template including the bot's response.
+    print(____.format(____)) 
 # Test function
 print(respond("hello!"))
