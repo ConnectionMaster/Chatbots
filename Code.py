@@ -50,8 +50,5 @@ def respond(message):
         key = intent
     return responses[key]
 
-# Send messages
-send_message("hello!")
-send_message("bye byeee")
-send_message("thanks very much!")
+
 
